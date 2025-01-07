@@ -26,6 +26,11 @@ Otevřete webový prohlížeč a přejděte na `http://127.0.0.1:5000`.
     docker run -p 5000:5000 flask-app
     ```
 
+## Docker-compose
+```sh
+    docker-compose up
+```
+
 ## Funkce
 
 - Přidávání uživatelů s validací formuláře (WTForms)
