@@ -18,7 +18,7 @@ fileConfig(config.config_file_name)
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
 sys.path.insert(0, os.path.realpath(os.path.join(os.path.dirname(__file__), '..')))
-from app import db
+from app.database import db
 target_metadata = db.metadata
 
 # other values from the config, defined by the needs of env.py,
